@@ -25,6 +25,7 @@ public class uploadPicsOnFacebookUsingAutoIt extends logindetails {
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		wait.until(ExpectedConditions.elementToBeClickable(By.linkText("Photo/Video"))).click();
 		// Run the AutoIt Script
+		//Auto It script running -> see readme
 		Thread.sleep(8000);
 		String command = "C:\\Program Files (x86)\\AutoIt3\\SciTE\\..\\aut2exe\\aut2exe.exe /in C:\\Users\\MUSKAAN\\Desktop\\selenium_upload\\upload_files.au3";
 		Runtime.getRuntime().exec(command);
