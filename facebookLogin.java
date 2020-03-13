@@ -12,7 +12,7 @@ public class facebookLogin extends logindetails {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize(); // maximizes the browser window to cover entire screen
 		// link to the page your browser should open -> here this link is the pepcoding
-		// -> 'posts' section page
+		// -> 'posts' section page 
 		driver.get("https://www.facebook.com/pg/pepcoding/posts/?ref=page_internal");
 		// enter username and password, here the logindetails file keeps the data stored
 		// separately to maintain privacy in code
