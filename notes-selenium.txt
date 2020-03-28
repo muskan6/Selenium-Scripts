@@ -1,0 +1,10 @@
+Main functions used in Selenium
+1) Open the link in browser -> driver.get(enter your link here);
+2) Find element in browser -> driver.findElement() -> By.id, By.xpath, By.linkText, By.cssSelector, By.classname, etc. (check acc to your preffered language for more)
+3) To send a message into any element -> driver.findElement(By.id(_)).sendKeys(msg);
+4) Use .click() on the element to click on it -> driver.findElement(By.id(_)).click();
+Selenium and Java
+1) System.setProperty("webdriver.chrome.driver", "C:\\Users\\MUSKAAN\\Desktop\\chromeDriver\\chromedriver.exe"); -> to set the path of chrome driver
+2) Access driver as Chrome Drvier -> WebDriver driver = new ChromeDriver();
+3) To maximize the size of browser screen -> driver.manage().window().maximize();
+		
