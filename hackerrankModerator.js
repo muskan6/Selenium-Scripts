@@ -8,10 +8,8 @@ var url = "https://www.hackerrank.com/auth/login?h_l=body_middle_left_button&h_r
 async function hackMod() {
     try {
         browser.get(url);
-        var username = "muskan99232@gmail.com";
-        var password = "Muskan.15";
-        //var username = "maliksachi4@gmail.com";
-        //var password = "pepcoding@1234";
+        var username = "Your username here";
+        var password = "Your password here";
         browser.findElement(By.id("input-1")).sendKeys(username).then(() => {
             "Username entered successfully"
         });
